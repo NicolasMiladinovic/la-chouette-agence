@@ -331,6 +331,10 @@ a:hover {
     font-size: 16px;
 }
 
+li {
+    list-style: none;
+}
+
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -765,7 +769,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #FFFFF7;
 }
 
 .bgc-dark-slate-blue {
@@ -1065,4 +1069,8 @@ h4 {
 
 .liens {
     color: white;
+}
+
+.test {
+    color: red;
 }
