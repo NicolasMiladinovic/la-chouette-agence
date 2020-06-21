@@ -90,9 +90,12 @@ a:hover {
     right: 0;
 }
 
-/*.texture-paper::before {
+.texture-paper::before {
+    content: "";
+    
     background: url("img/texture-paper.jpg");
-    background-size: 280px 280px;*/
+    background-size: 280px 280px;
+    opacity: 20%;
 }
 
 .b-parallax {
@@ -752,7 +755,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color:rgba(86,70,26,.6);
     padding: 40px 40px 40px 40px;
 }
 
@@ -774,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: #fbdacb!important;
+    color: #efefaf!important;
 }
 
 .btn-atomic-tangerine {
